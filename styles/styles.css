@@ -16,12 +16,13 @@ img
 
 body
 {
-   padding: 0px 5px 200px 5px;
+ padding: 0px 5px 200px 5px; 
 }
 
 main
 {
-   padding: 1px;
+   padding: 1px 1px 50px 1px; 
+
 }
 
 header
@@ -30,7 +31,7 @@ header
    background-color  : white;  
 }
 
-#imgage2 
+#image2 
 {
    max-width   : 100%;
    height      : auto;
@@ -59,11 +60,10 @@ nav a
    display           : inline-block;
    padding           : 5px 10px 5px 10px;
    margin            : 2px;
-   background-color  : blue;
+   background-color  : rgb(33, 25, 21);
    color             : white;
    font-weight       : bold;
    border-radius     : 5px;
-  
 }
 
 nav span
@@ -72,7 +72,7 @@ nav span
    display           : inline-block;
    padding           : 5px 10px 5px 10px;
    margin            : 2px;
-   background-color  : green;
+   background-color  : rgb(95, 161, 153);
    color             : white;
    font-weight       : bold;
    border-radius     : 5px;
@@ -81,7 +81,7 @@ nav span
 main h3
 {
    text-align  : center;
-   border      : 1px solid black;
+   border      : 1px solid rgb(33, 25, 21);
 }
 
 
@@ -101,14 +101,9 @@ main article
    display           : inline-block;
    width             : 80%;
  
-   height            : 150px;
+   height            : 80px;
    position          : absolute;
    right             : 1px;
-}
-
-footer
-{
-   background-color  : black;
-   color             : white;
+   
 }
 
