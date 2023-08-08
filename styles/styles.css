@@ -105,3 +105,9 @@ main article
    right             : 1px;
 }
 
+ol 
+{
+  list-style-type : lower-alpha; 
+  padding-left    : 20px; 
+}
+
