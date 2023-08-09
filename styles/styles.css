@@ -19,6 +19,7 @@ body
  padding: 0px 5px 200px 5px; 
 }
 
+
 H2, H3, H4 
 {
     padding: 5px 0px 5px 0px;
@@ -49,8 +50,13 @@ header
 
 header h1
 {
-   padding  : 7px;
-   font-size: 30px;
+   font-size: 0px;
+}
+
+header img
+{
+   height: 80%;
+   width : 400px;
 }
 
 nav
@@ -65,8 +71,6 @@ nav
    background  : transparent;
    
 }
-
-
 
 nav a
 {
@@ -98,7 +102,6 @@ main h3
    text-align  : center;
    border      : 1px solid rgb(33, 25, 21);
 }
-
 
 main aside
 {
